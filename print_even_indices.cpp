@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void sol(vector<int>arr,int n){
-    if(n==0){
+    if(n==0){// base case
         cout<<arr[n];
         return ;
     }
